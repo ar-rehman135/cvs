@@ -1,0 +1,22 @@
+CACHE_H
+
+This is a header file which we include in every .c file related to
+our program. It contains preprocessor directives, shared variable, 
+include header files and Basic Data Structures.
+
+
+struct cache_entry
+
+This structure is an entry against a file in our stagging area.
+this structure contains the meta data about file which we found
+in stat structure, its SHA that is maintained in object database,
+ its namelen and name. We write all these entries on file named 
+index which exist in our DB Environment.
+
+struct cache_header
+
+This struct is used for maintaining stagging area. it is meta data
+of all entries in stagging area. We can say that all the entries of 
+our stagging area is in file named index in the start of the index 
+file we placed another struct cache header which tell us about 
+no of entries, it corruption, version etc.

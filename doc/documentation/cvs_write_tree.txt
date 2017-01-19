@@ -1,0 +1,11 @@
+CVS_WRITE_TREE
+
+This command is used to add tree type object to our Database.
+This is done so it traverse the current stagging area which is
+index file in our scenerio and read its entries here entries are
+entries of blobs means the file we want to version control and add
+to the stagging area by the command cvs-update. it reads all the 
+blob entries from the index file and make its mode, unique SHA and 
+filename the part of it content. Then it compress its contents generate
+unique SHA and finally be placed in Database. Here database is our 
+subdirectory in the .dircache directory.

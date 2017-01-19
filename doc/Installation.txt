@@ -1,0 +1,94 @@
+							+====================+
+
+							INSTALLATION BY SOURCE 
+
+							+====================+
+
+
+
+
+Before the Installation of the software on you machine please take care of a few details mentioned in the Prerequisits & Requirements.txt.
+
+Following are the orderd step to be followed by you for a successfull installation:
+
+
+1. Source File Conformation
+===========================
+
+You must have the correct files for installation. Regardsless of means from where you got the source, You have to confirm the Directory Structure.
+
+/cvs
+	/bin(0 files)
+	/build(0 files)
+	/src( 9 files)
+	/doc( 7 files)
+	/include(1 file)
+	Makefile.am
+	configure.ac
+	
+2. Reach the directory to initiate installation:
+===============================================
+
+Go to the root directry of your project named as "cvs"
+
+3. Generate COnfigure Script:
+============================
+
+Being in the "cvs" directory, run the following commang to generate the configration script.
+
+autoreconf --install
+
+This command will affect your home directory by adding following files. 
+
+/cvs	
+	/autom4te.cache
+	aclocal.m4
+	compile
+	config.h.in
+	configure [to be used in the next step]
+	depcomp
+	install-sh
+	Makefile.in
+	missing
+
+4. Executing the configration script:
+=====================================
+
+Being in the "cvs" directory, run the following commang to execute the configration script.
+
+./configure
+
+This command will affect your home directory by adding following files. 
+
+/cvs	
+	config.log
+	config.status
+	Makefile [to be used in the next step]
+	stamp-h1
+
+5. Making the makefile generated:
+=====================================
+
+Being in the "cvs" directory, run the following commang to make the target succesully for the final executables.
+
+make
+
+This command will affect your home directory by adding following files. 
+
+/cvs	
+	/src(8 files added ".o files")
+	/bin(7 files added "executables")
+
+6. Reaching the command Executables
+=====================================
+
+Being in the "cvs" directory, you have to change the directory to ~cvs/bin with following commands.
+
+cd bin
+
+Now You are direct to the executables to run.
+
+7. Running the command 
+======================
+
+Being in the bin directory run the executeables according to as per mentioned in the installed man pages.

@@ -1,0 +1,12 @@
+.main()
+	The main driver functions, call different functions to show comparission.
+
+.static int match stat(struct cache_entry *ce, struct stat *st)
+	Compares the stats of files with the same name present in cache
+	and in working directory.
+
+.static void show_differences(struct cache_entry *ce, struct stat *cur, 
+				void *old_contents, unsigned long long old_size)
+
+	Compares the content of file in cache and in working directory and 
+	shows the difference between them. 

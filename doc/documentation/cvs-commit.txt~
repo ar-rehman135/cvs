@@ -1,0 +1,19 @@
+static void init_buffer(char ** bufp , unsigned int * sizep ):
+
+This is initiallizing space for buff variable to set structure for commit's SHA
+
+add_buffer( char ** bufp , unsigned int * sizep , const char * fmt , ...): 
+
+Helps in setting structure of buffer for making sha
+
+static int prepend_integer( char * buffer , unsigned val , int i ):
+
+Set address on characters and also returns value of index of buffer on which last value of address is set after converting it to characters
+
+static void finish_buffer( char * tag , char ** bufp , unsigned int * sizep ): 
+
+On setting buffer structure now it put 'commit' tag on start of buffer
+
+static void remove_special( char * p ):
+
+It removes special characters from string given to it.

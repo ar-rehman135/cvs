@@ -1,0 +1,8 @@
+CVS_READ_TREE
+
+This command is used to read a tree type object from the database.
+This command takes in an SHA which is SHA of tree type object. We 
+have three types of obects blob, tree, commit. This commad only reads 
+Tree type object and show its contents. The data in file corresponding
+to given SHA is in compressed form. So we firstly unpack it and then 
+we will display it on screen.

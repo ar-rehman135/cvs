@@ -1,0 +1,8 @@
+CVS-LOG
+
+This command display all the commits history with their 
+user and commiter information.It also displays comment 
+enterred when commiting It reads all the SHA of commits 
+from file .commit_hash.txt in in .dircache and reads the 
+contents one by one and display it with arrangement from 
+recent to oldest.

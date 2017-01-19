@@ -1,0 +1,32 @@
+							+==========================+
+
+							PREREQUISITES & REQUIREMENTS
+
+							+==========================+
+
+
+
+
+For the Installation of the software on you machine please take care of a few details which are following:
+
+
+1. System Requirements:
+=======================
+
+i.	Operating System: Ubuntu  4Mbps
+ii.	Memory: 4096MB RAM
+iii.	Processor: Intel(R) Core(TM) i3-40 10U CPU @ 1.70GHz ($CPUs)
+
+
+2. Prerequisite Installations:
+==============================
+
+i.	GNU C Language Compiler (gcc) to run the source files given in the package.
+ii.	Make : The tool to compile and build your multi source file program.
+iii.	AutoConf Tool (AC) & AutoMake Tool  (AM) to install and configure the complete software in a couple of commands.
+iv.	OpenSSL is cryptography library, provides implementation of the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols.
+v.	zlib is a software library used for data compression. 
+vi.	libssl is the portion of OpenSSL which supports TLS (SSL and TLS Protocols)
+vii.	libssl-dev Secure Sockets Layer toolkit - development files. 
+
+
